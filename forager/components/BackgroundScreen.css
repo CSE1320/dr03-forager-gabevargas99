@@ -1,0 +1,28 @@
+.background-screen {
+  width: 402px; 
+  height: 874px;
+  background-color: #FFF;
+  border: 4px solid #9370DB; 
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+  margin: 0 auto; 
+  position: relative; 
+}
+
+@media (max-width: 414px) {
+  .background-screen {
+    width: 414px; 
+    height: calc(414px * (874 / 402)); 
+    transform: scale(0.9);
+    transform-origin: top left;
+  }
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}

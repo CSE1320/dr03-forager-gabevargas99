@@ -1,0 +1,51 @@
+.container {
+  width: 380px;
+  height: 806px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 0 8px; 
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #203B5F;
+  margin: 0 auto; 
+  flex-grow: 1;
+  text-align: center;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 8px; 
+}
+
+.section {
+  margin-bottom: 16px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #203B5F;
+  margin-bottom: 8px;
+}
+
+.pillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

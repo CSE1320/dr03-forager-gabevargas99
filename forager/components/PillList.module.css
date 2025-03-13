@@ -1,0 +1,21 @@
+.container {
+    width: 321px;
+    height: 83px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #203B5F;
+    margin-bottom: 8px;
+  }
+  
+  .pillContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }

@@ -1,0 +1,88 @@
+.card {
+  width: 294px;
+  height: 838px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.polaroid {
+  background: #FFFFFF;
+  padding: 10px;
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 294px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  padding: 16px;
+  background: none;
+  color: #FFFFFF;
+  height: calc(100% - 430px - 32px); 
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  margin-bottom: 0;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #324053;
+}
+
+.header .subtext {
+  font-size: 16px;
+  color: #203B5FBF;
+}
+
+.addButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+}
+
+.facts {
+  background: #8E4A49;
+  padding: 12px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.facts h3 {
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+.facts p {
+  font-size: 14px;
+  color: #FFFFFF;
+  margin: 4px 0;
+}
+
+.description {
+  font-size: 14px;
+  color: #000000;
+  line-height: 1.5;
+}

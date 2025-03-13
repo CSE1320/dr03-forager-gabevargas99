@@ -2,11 +2,13 @@
 ####################### Makefile Template ##############################
 ########################################################################
 # Student settings
-NAME = YOURNAME
-SID = YOURSID
-EMAIL = YOURUTAEMAIL
+NAME = Gabriel Vargas
+SID = 1002046791
+EMAIL = gxv6791@mavs.uta.edu
 SEMESTER = SPRING2025
 PROJECT=PROJ03
+
+YOUTUBE-LINK = https://www.youtube.com/watch?v=NCsCuyZFbuE
  
 
 ####### DO NOT EDIT BELOW THIS LINE!!! #########

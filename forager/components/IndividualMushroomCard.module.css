@@ -1,0 +1,39 @@
+.card {
+  width: 165px; 
+  margin: 10px;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.polaroid {
+  position: relative;
+  padding: 10px;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 165px; 
+  height: 210px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confidenceIndicator {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.text {
+  padding: 10px;
+}
+
+.text h3 {
+  font-size: 16px; 
+  color: #324053;
+  margin: 0;
+}

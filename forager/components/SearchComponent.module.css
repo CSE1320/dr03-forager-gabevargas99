@@ -1,0 +1,38 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #666;
+  background: transparent;
+}
+
+.clearButton {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 8px;
+  padding: 0;
+}
+
+.filterButton {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #2E7D32;
+  cursor: pointer;
+  margin-left: 8px;
+}
